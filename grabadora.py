@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from datetime import datetime
 
+
 try:
     tiempo = int(input("Ingresa el tiempo de grabacion en segundos:"))
 except Exception as e:
