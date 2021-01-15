@@ -18,9 +18,8 @@ except Exception as e:
     exit()
 
 fs = 44100
-secons = tiempo
 try:
-    myrecording = sd.rec(int(secons*fs),
+    myrecording = sd.rec(int(tiempo*fs),
     samplerate = fs, channels= 1)
     print('Grabando...')
     sd.wait()
@@ -39,8 +38,3 @@ try:
 
 except Exception as e:
     print('error, intentelo mas tarde')
-
-"""
-pyinstaller --onefile "nombre.py"
-"""
-# plt.plot(myrecording)
