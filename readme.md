@@ -1,5 +1,6 @@
 # Grabadora con espectro de frecuencias 
 Este programa esta desginado para que las personas puedan grabar audios y despues de ello se muestre el espectro de freciencias que se emitieron.
+El programa se puede utilizar de manera de aprendizaje para los alumnos que tengan que grabar algun sonido y encontrar su espectro de frecuencia, sea como en algunas clases designadas de Acústica.
 
 ## Librerias utilizadas
 * Sounddevice
@@ -15,5 +16,5 @@ Con [Matplotlib](https://matplotlib.org/) Hacemos posible la impresion de las gr
 
 Datetime podemos colocar la fecha y hora en la cual se esta imprimiendo o realizando la grabación del audio.
 
-El programa se puede utilizar de manera de aprendizaje para los alumnos que tengan que grabar algun sonido y encontrar su espectro de frecuencia, sea como en algunas clases designadas de Acústica.
+
 
